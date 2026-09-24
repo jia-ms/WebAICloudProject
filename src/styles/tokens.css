@@ -1,0 +1,29 @@
+:root {
+  /* Base surfaces */
+  --color-bg: #14171a;
+  --color-panel: #1d2124;
+  --color-panel-raised: #22262a;
+  --color-border: #2e3438;
+  --color-border-strong: #3c4349;
+
+  /* Text */
+  --color-text: #e8eaec;
+  --color-text-muted: #8b9297;
+  --color-text-faint: #5c6266;
+
+  /* Accents — mirror real machine-vision overlay colors */
+  --color-amber: #f0a83c;
+  --color-amber-dim: #7a5a26;
+  --color-teal: #4dd6b0;
+  --color-teal-dim: #276e5c;
+
+  /* Type */
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", monospace;
+
+  /* Layout */
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --max-width: 1160px;
+}

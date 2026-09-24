@@ -1,0 +1,115 @@
+.auth-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.auth-shell__logo {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.auth-shell__panel {
+  width: 100%;
+  max-width: 400px;
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 36px 32px;
+}
+
+.auth-shell__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-teal);
+  margin: 0 0 10px;
+}
+
+.auth-shell__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.auth-shell__subtitle {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.auth-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.auth-form__field input {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  padding: 11px 12px;
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.auth-form__field input:focus {
+  border-color: var(--color-teal);
+  outline: none;
+}
+
+.auth-form__row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -8px;
+}
+
+.auth-form__link {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.auth-form__link:hover {
+  color: var(--color-teal);
+}
+
+.auth-form__error {
+  background: rgba(240, 168, 60, 0.1);
+  border: 1px solid var(--color-amber-dim);
+  color: var(--color-amber);
+  font-size: 13px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.auth-form__success {
+  background: rgba(77, 214, 176, 0.1);
+  border: 1px solid var(--color-teal-dim);
+  color: var(--color-teal);
+  font-size: 13px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 18px;
+}
+
+.auth-form__footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}
+
+.auth-form__footer a {
+  color: var(--color-teal);
+}
